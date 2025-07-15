@@ -64,7 +64,7 @@ def generate_random_basis(n=3):
     else:
         return [Matrix([[random.randint(0, 1)] for _ in range(n)]) for _ in range(n)]
 
-def generate_dataset(output_file='katz_cyclic_vector_ml/data/raw/samples_n3.csv', num_samples=1500, desired_ratio=0.5):
+def generate_dataset(output_file='katz_cyclic_vector_ml/data/raw/samples_n3.csv', num_samples=500, desired_ratio=0.5):
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
     t_sym = symbols('t')
     t_val = 1.0
