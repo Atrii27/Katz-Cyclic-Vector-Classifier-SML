@@ -6,15 +6,15 @@ This project integrates **symbolic mathematics** and **machine learning** to:
 -  Predict cyclicity from numerical matrix features using a trained Random Forest classifier.
 -  Provide a Streamlit-based interactive UI for exploration and visualization.
 ##  Mathematical Background
-A vector \( v \in V \) in a differential module is **cyclic** if the vectors \( v, Dv, D^2v, \dots, D^{n-1}v \) span the entire space \( V \).  
+A vector (v) in a differential module(V,D) is **cyclic** if the vectors ( v, Dv, D^2v,.....,D^{n-1}v ) span the entire space ( V ).  
 Nicholas Katz (1987) provided a recursive construction to verify this condition using:
-- A derivation matrix \( D \)
-- A chosen basis \( \{e_0, \dots, e_{n-1}\} \)
-- A scalar shift \( a \)
+- A derivation matrix ( D )
+- A chosen basis ( {e_0, ..........., e_{n-1}} )
+- A scalar shift ( a )
 ##  Machine Learning Model
 We extract features such as:
-- Entries of matrix \( D \) and basis vectors
-- Trace, determinant, rank, eigenvalues of \( D \)
+- Entries of matrix ( D ) and basis vectors
+- Trace, determinant, rank, eigenvalues of ( D )
 - Basis vector norms and rank
 These are used to train a Random Forest Classifier to predict cyclicity, complementing the symbolic result.
 ## Directory Structure
