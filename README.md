@@ -29,7 +29,6 @@ These are used to train a Random Forest Classifier to predict cyclicity, complem
     src/ # Core logic and ML pipeline
     tests/ # Unit tests
     README.md
-    setup.py
 Sample Output : Symbolic Katz derivatives displayed
 Rank evaluation at fixed at t
 ML predicted class : Mismatch warning (if symbolic ≠ ML result)
