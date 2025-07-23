@@ -1,8 +1,9 @@
 Dataset: C:/Users/DELL/Desktop/SRM2025IISERM/katz_cyclic_vector_ml\data\raw\samples_n3.csv
-Samples: 500
+Samples: 10000
 Features: 27
-Accuracy: 0.9400
-F1 Score: 0.9412
+Accuracy: 0.9705
+F1 Score: 0.9711
+AUC Score: 0.9922
 Confusion Matrix:
-[[46  4]
- [ 2 48]]
+[[948  52]
+ [  7 993]]
