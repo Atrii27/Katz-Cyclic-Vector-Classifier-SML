@@ -21,7 +21,7 @@ from src.symbolic_katz import get_katz_derivatives, check_cyclicity
 from src.utils import parse_matrix_input, parse_vector_input, flatten_matrix, make_dataframe_arrow_safe
 from src.features import add_matrix_features
 # Load the pre-trained ML model from disk
-model_path = r"C:/Users/DELL/Desktop/SRM2025IISERM/katz_cyclic_vector_ml/models/trained_model.pkl"
+model_path = "/mount/src/katz-cyclic-vector-classifier-sml/models/trained_model.pkl"
 model = joblib.load(model_path)
 # Show a sidebar message indicating the model is loaded
 st.sidebar.success(" Loaded ML model for n = 3")
